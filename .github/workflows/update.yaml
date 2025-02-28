@@ -6,8 +6,8 @@ on:
     - cron: '*/60 * * * *'
 jobs:
   update:
-    timeout-minutes: 15
-    runs-on: nscloud-ubuntu-22.04-amd64-4x16
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
@@ -19,10 +19,6 @@ jobs:
         extra_nix_config: |
           system-features = kvm nixos-test
           experimental-features = nix-command flakes
-    - uses: cachix/cachix-action@v12
-      with:
-        name: nixpkgs-wayland
-        signingKey: '${{ secrets.cachix_key_nixpkgs_wayland }}'
     - name: git-setup
       run: |
         git config --global user.name 'Cole Botkens'
