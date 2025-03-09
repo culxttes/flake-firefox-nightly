@@ -17,9 +17,9 @@
     },
     "nightly": {
       "version": "138.0a1",
-      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/03/2025-03-08-09-00-17-mozilla-central/firefox-138.0a1.en-US.linux-x86_64.tar.xz",
-      "hash": "sha512-OIS3g20TfI3toILTwQsgq14zm8Nj/mj4FHAqKWU7Sl6re1pHrClj6Vjp1qAhNqnEUZkm/nso2850rwAilJdSqQ==",
-      "date": "2025-03-08T09:00:17Z"
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/03/2025-03-08-21-17-07-mozilla-central/firefox-138.0a1.en-US.linux-x86_64.tar.xz",
+      "hash": "sha512-rRrDWLV9SSxLsfiwClxSwPVNubiRyehUCCcXVZvdqwWHcK+uqooUBELc/I317Y9a2b6Cai9q9DxY1lMxo6VXsg==",
+      "date": "2025-03-08T21:17:07Z"
     }
   },
   "linux-aarch64": {
